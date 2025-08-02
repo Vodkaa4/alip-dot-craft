@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhamad Alip Bunyamin - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #3B82F6;
+            padding-bottom: 20px;
+        }
+        
+        .name {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1F2937;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 1.2rem;
+            color: #6B7280;
+            margin-bottom: 15px;
+        }
+        
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+            color: #4B5563;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1F2937;
+            border-bottom: 2px solid #E5E7EB;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .job {
+            margin-bottom: 20px;
+        }
+        
+        .job-title {
+            font-weight: 600;
+            color: #1F2937;
+            font-size: 1.1rem;
+        }
+        
+        .job-company {
+            color: #3B82F6;
+            font-weight: 500;
+        }
+        
+        .job-date {
+            color: #6B7280;
+            font-size: 0.9rem;
+        }
+        
+        .job-description {
+            margin-top: 8px;
+            color: #4B5563;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background: #F3F4F6;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #374151;
+            border: 1px solid #E5E7EB;
+        }
+        
+        .education {
+            margin-bottom: 15px;
+        }
+        
+        .education-degree {
+            font-weight: 600;
+            color: #1F2937;
+        }
+        
+        .education-school {
+            color: #3B82F6;
+        }
+        
+        .education-date {
+            color: #6B7280;
+            font-size: 0.9rem;
+        }
+        
+        ul {
+            margin-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        @media print {
+            body {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">Muhamad Alip Bunyamin</div>
+        <div class="title">Software Engineer & Full Stack Developer</div>
+        <div class="contact">
+            <span>📧 alifzaelani22@gmail.com</span>
+            <span>📱 (+62) 85861127179</span>
+            <span>📍 Kota Bandung, Jawa Barat</span>
+            <span>🔗 linkedin.com/in/muhamad-alip-bunyamin</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Ringkasan Eksekutif</div>
+        <p>
+            Mahasiswa semester 6 Teknik Informatika Universitas Teknologi Bandung dengan IPK 3.60/4.00. 
+            Memiliki pengalaman dalam pengembangan sistem informasi, e-commerce, dan aplikasi web. 
+            Berdedikasi tinggi, cepat belajar, dan adaptif dalam teknologi terbaru.
+        </p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Pendidikan</div>
+        <div class="education">
+            <div class="education-degree">Teknik Informatika</div>
+            <div class="education-school">Universitas Teknologi Bandung</div>
+            <div class="education-date">Aug 2025 - Dec 2025 | IPK: 3.60/4.00</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Pengalaman Proyek</div>
+        
+        <div class="job">
+            <div class="job-title">Website E-Commerce Fashion Store</div>
+            <div class="job-company">Proyek Pribadi</div>
+            <div class="job-date">Sep 2024 - Jan 2025</div>
+            <div class="job-description">
+                <ul>
+                    <li>Membangun e-commerce lengkap dengan Laravel, MySQL, dan Tailwind CSS</li>
+                    <li>Fitur: CRUD produk, sistem login/register, keranjang belanja, pembayaran Midtrans</li>
+                    <li>Dashboard admin dengan statistik penjualan dan manajemen user</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Sistem Informasi Akademik</div>
+            <div class="job-company">MI Nurul Hidayah</div>
+            <div class="job-date">Jan 2024 - Maret 2024</div>
+            <div class="job-description">
+                <ul>
+                    <li>Sistem web untuk mengelola data siswa, guru, nilai, dan absensi</li>
+                    <li>Login multi-level, input & cetak nilai, laporan PDF otomatis</li>
+                    <li>Tech stack: PHP Native, MySQL, AdminLTE</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Sistem Penjualan Alat Berat</div>
+            <div class="job-company">Proyek Pribadi</div>
+            <div class="job-date">Jan 2025 - Feb 2025</div>
+            <div class="job-description">
+                <ul>
+                    <li>Sistem manajemen penjualan alat berat dengan Laravel</li>
+                    <li>Fitur: stok barang, manajemen pelanggan, histori transaksi</li>
+                    <li>Dashboard admin real-time dengan Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills">
+            <span class="skill">PHP Native</span>
+            <span class="skill">Laravel</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">HTML/CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React JS</span>
+            <span class="skill">Tailwind CSS</span>
+            <span class="skill">Bootstrap</span>
+            <span class="skill">Python</span>
+            <span class="skill">Google Chart API</span>
+            <span class="skill">Midtrans API</span>
+            <span class="skill">PDF Generator</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Sertifikasi</div>
+        <div class="skills">
+            <span class="skill">MySkill: Product Management Fundamental</span>
+            <span class="skill">Udemy: MS Excel Macros & VBA</span>
+            <span class="skill">DICODING: Front-end Fundamental</span>
+            <span class="skill">DICODING: Data Science</span>
+            <span class="skill">DICODING: SQL</span>
+            <span class="skill">MySkill: Data Analysis</span>
+            <span class="skill">IBM: AI Generative</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Organisasi</div>
+        <div class="job">
+            <div class="job-title">Anggota Divisi Komunikasi dan Informasi</div>
+            <div class="job-company">BEM STMIK Dharma Negara</div>
+            <div class="job-date">Jan 2023 - 2024</div>
+            <div class="job-description">
+                Mengelola dokumentasi kegiatan, branding organisasi, dan publikasi media sosial.
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Languages</div>
+        <div class="skills">
+            <span class="skill">Bahasa Indonesia (Native)</span>
+            <span class="skill">English (Intermediate)</span>
+        </div>
+    </div>
+</body>
+</html>

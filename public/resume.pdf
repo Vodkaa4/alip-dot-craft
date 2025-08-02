@@ -1,0 +1,14 @@
+# Resume PDF Placeholder
+
+This is a placeholder for the resume PDF file.
+
+To create the actual PDF from the HTML resume:
+
+1. Open the resume.html file in a browser
+2. Press Ctrl+P (or Cmd+P on Mac) to open print dialog
+3. Select "Save as PDF" as destination
+4. Save the file as "resume.pdf" in the public folder
+
+Alternatively, you can use online tools or browser extensions to convert HTML to PDF.
+
+The resume.html file is already styled for print with proper margins and formatting. 
